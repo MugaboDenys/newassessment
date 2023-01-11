@@ -4,19 +4,12 @@ import logo from "../../public/logo-inverted-en.svg";
 import lan from "../../public/lan.png";
 import menu from "../../public/menu.png";
 import search from "../../public/search.png";
-import chevron from "../../public/chevron.svg"
+
 
 const Navbar = () => {
   return (
-    <div className="bg-white">
-      <div className="bg-darkblue ">
-        <div className="max-w-[960px] mx-auto py-2 flex justify-end">
-          <Link className="text-sm font-light text-white flex gap-x-1 items-center" href={"/"}>
-            University of Stuttgart <span><Image src={chevron} height={20} width={20} alt=""/></span>
-          </Link>
-        </div>
-      </div>
-      <div className="max-w-[960px] top-0 sticky mx-auto flex justify-between py-10 px-5 md:px-0 z-10">
+    <div className="bg-white sticky top-0 z-10">
+      <div className="max-w-[960px] mx-auto flex justify-between py-10 px-5 md:px-0 ">
         <Link href={"/"}>
           <Image src={logo} alt="" className="w-full h-14 md:h-20" />
         </Link>
