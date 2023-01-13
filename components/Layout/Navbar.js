@@ -44,7 +44,7 @@ const Navbar = () => {
       </div>
       {open ? <div className="h-screen w-full absolute  bg-opacity-90 bg-darkish">
         <div className="max-w-[960px] mx-auto mt-60 text-white ">
-        <Link href={'/programs'} onClick={handleOpen} className="block font-bold text-4xl py-3 px-5 duration-300 hover:text-darkish hover:bg-paleblue">All Study pro</Link>
+        <Link href={'/programs'} onClick={handleOpen} className="block  font-bold text-4xl py-3 px-5 duration-300 hover:text-darkish hover:bg-paleblue">All Study pro</Link>
         </div>
       </div> : null }
     </div>
